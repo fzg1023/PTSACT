@@ -1,0 +1,41 @@
+{
+  "normalization": {
+    "T_min": 653.497802734375,
+    "T_max": 1904.8687744140625
+  },
+  "grid_fine": 32,
+  "grid_coarse": 16,
+  "domain_m": [
+    20,
+    20
+  ],
+  "transducers": 16,
+  "acoustic_paths": 120,
+  "alpha": 0.01,
+  "interpolation_order": 3,
+  "tof_noise_std_s": 3e-05,
+  "seeds": [
+    42,
+    123,
+    456
+  ],
+  "base_ch": 24,
+  "dropout_p": 0.1,
+  "training": {
+    "epochs": 300,
+    "learning_rate": 0.0001,
+    "batch_size": 64,
+    "weight_decay": 1e-05,
+    "optimizer": "Adam",
+    "scheduler": "CosineAnnealingLR",
+    "validation_per_family": 100
+  },
+  "sample_counts": {
+    "train": 4800,
+    "validation": 1200,
+    "independent_test": 1200
+  },
+  "temperature_units": "degrees Celsius",
+  "tof_units": "seconds",
+  "normalization_note": "Stored limits equal training-only extrema; historical preparation also scanned validation."
+}

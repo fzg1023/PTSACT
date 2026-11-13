@@ -1,0 +1,235 @@
+{
+  "local_technical_acceptance_passed": true,
+  "external_distribution_permission_assessed": false,
+  "original_research_files_modified": false,
+  "original_source_files_verified": 240,
+  "original_workspace_read_access_blocked_during_relocated_runs": true,
+  "all_relocated_commands_passed": true,
+  "unit_tests": {
+    "passed": 85,
+    "skipped": 4,
+    "skip_reason": "Windows did not permit creating four real symlinks; other filesystem safety tests passed"
+  },
+  "main": {
+    "samples": 1200,
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "stage1_RMSE_percent": 1.9152714550755352,
+    "stage2_mean_RMSE_percent": 0.5497320791832858,
+    "stage2_population_std_percentage_points": 0.0006670851181984164,
+    "relative_reduction_percent": 71.29743265757568,
+    "bootstrap_ci95_percent": [
+      70.75309384840672,
+      71.81649779519209
+    ]
+  },
+  "numeric_reference_checks": {
+    "checks": {
+      "main_full_1200_three_models": true,
+      "main_reference_within_0001_percentage_points": true,
+      "main_rounds_to_05497_percent": true,
+      "five_direct_architectures_match_within_0002_percentage_points": true,
+      "dual_three_seeds_present": true,
+      "dual_RMSE_rounding": true,
+      "parameter_counts": true,
+      "tv_reference_metrics": true,
+      "all_17_ablations_match_within_0002_percentage_points": true,
+      "rbf_three_seed_reference": true,
+      "factory_scope_is_validation_not_real_test": true,
+      "factory_high_180_and_fullrange_3000": true,
+      "factory_metrics_within_0002_C": true
+    },
+    "differences": {
+      "main_RMSE_percentage_points": 0.0,
+      "direct_architecture_macro_percentage_points": {
+        "baseline": 0.0,
+        "v1": 0.0,
+        "v1_multi": 0.0,
+        "v3": 0.0,
+        "e2e_a": 0.0
+      },
+      "ablation_macro_percentage_points": {
+        "attention/attention": 0.0,
+        "attention/base": 1.1102230246251565e-16,
+        "attention/plain": 0.0,
+        "grid/grid12": 0.0,
+        "grid/grid16": 1.1102230246251565e-16,
+        "grid/grid20": 1.1102230246251565e-16,
+        "learning/residual": 0.0,
+        "learning/direct": 0.0,
+        "loss/MSE": 1.1102230246251565e-16,
+        "loss/SmoothL1": 1.1102230246251565e-16,
+        "loss/L1": 0.0,
+        "stage1/rbf": 0.0,
+        "stage1/tikhonov": 2.220446049250313e-16,
+        "training/single_only": 0.0,
+        "training/dual_only": 4.440892098500626e-16,
+        "training/triple_only": 0.0,
+        "training/mixed_subset": 0.0
+      },
+      "factory_high_residual_C": 0.0,
+      "factory_high_direct_C": 1.0462712118908257e-05,
+      "factory_fullrange_residual_C": 0.0
+    },
+    "all_passed": true,
+    "main_mean_RMSE_percent": 0.5497320791832858,
+    "note": "Main tolerance 0.001 percentage points; neural comparison tolerance 0.002 percentage points; factory 0.002 degrees C. No numerical tuning."
+  },
+  "generation": {
+    "scope": "same frozen independent-test generator/noise stream; existing assets untouched",
+    "count_per_family": 400,
+    "checks": {
+      "single_peak": {
+        "T_true_max_abs_difference": 0.0,
+        "tof_max_abs_difference": 0.0,
+        "T_stage1_max_abs_difference": 0.0,
+        "tof_temperature_roundtrip_max_abs_s": 1.3877787807814457e-17
+      },
+      "dual_peak": {
+        "T_true_max_abs_difference": 0.0,
+        "tof_max_abs_difference": 0.0,
+        "T_stage1_max_abs_difference": 0.0,
+        "tof_temperature_roundtrip_max_abs_s": 1.3877787807814457e-17
+      },
+      "triple_peak": {
+        "T_true_max_abs_difference": 0.0,
+        "tof_max_abs_difference": 0.0,
+        "T_stage1_max_abs_difference": 0.0,
+        "tof_temperature_roundtrip_max_abs_s": 1.3877787807814457e-17
+      }
+    }
+  },
+  "normalization": {
+    "stored_constants": {
+      "T_min": 653.497802734375,
+      "T_max": 1904.8687744140625
+    },
+    "data": {
+      "train": {
+        "count": 4800,
+        "minimum": 653.497802734375,
+        "maximum": 1904.8687744140625,
+        "families": [
+          {
+            "family": "single_peak",
+            "count": 1600,
+            "minimum": 653.497802734375,
+            "maximum": 1821.8466796875
+          },
+          {
+            "family": "dual_peak",
+            "count": 1600,
+            "minimum": 700.0790405273438,
+            "maximum": 1581.875244140625
+          },
+          {
+            "family": "triple_peak",
+            "count": 1600,
+            "minimum": 750.370849609375,
+            "maximum": 1904.8687744140625
+          }
+        ]
+      },
+      "val": {
+        "count": 1200,
+        "minimum": 654.033447265625,
+        "maximum": 1854.483642578125,
+        "families": [
+          {
+            "family": "single_peak",
+            "count": 400,
+            "minimum": 654.033447265625,
+            "maximum": 1818.4761962890625
+          },
+          {
+            "family": "dual_peak",
+            "count": 400,
+            "minimum": 700.1011352539062,
+            "maximum": 1529.630615234375
+          },
+          {
+            "family": "triple_peak",
+            "count": 400,
+            "minimum": 750.6870727539062,
+            "maximum": 1854.483642578125
+          }
+        ]
+      }
+    },
+    "training_only_exactly_matches_stored": true,
+    "validation_does_not_expand_limits": true,
+    "test_truth_opened_for_this_check": false,
+    "note": "Historical preparation scanned train and validation; recomputing from train alone is numerically identical here."
+  },
+  "baselines_summary": {
+    "baseline": {
+      "mean_RMSE_percent": 3.641870392336482
+    },
+    "v1": {
+      "mean_RMSE_percent": 3.6812561472506258
+    },
+    "v1_multi": {
+      "mean_RMSE_percent": 3.258783161995533
+    },
+    "v3": {
+      "mean_RMSE_percent": 3.1346033754800806
+    },
+    "e2e_a": {
+      "mean_RMSE_percent": 4.253056400345635
+    },
+    "dual": {
+      "mean_RMSE_percent": 0.5506176992574664
+    },
+    "tv": {
+      "mean_RMSE_percent": 1.680274839559975
+    }
+  },
+  "factory_synthetic": {
+    "validation_only": true,
+    "high_samples": 180,
+    "fullrange_samples": 3000,
+    "high_residual_RMSE_C": {
+      "mean": 9.95489323636206,
+      "std": 0.08492607195016
+    },
+    "high_direct_RMSE_C": {
+      "mean": 18.272189537287883,
+      "std": 1.7642509881505433
+    },
+    "fullrange_residual_RMSE_C": {
+      "mean": 4.19346982453218,
+      "std": 0.0067680879666958136
+    }
+  },
+  "tv": {
+    "full_1200_metrics": "recomputed from supplied previously converged solutions",
+    "fresh_solves_checked": 1,
+    "fresh_single_peak_sample_index": 0,
+    "fresh_solver_converged": true,
+    "iterations": 11189,
+    "max_abs_difference_from_reference_C": 6.0813260006398195e-05
+  },
+  "truth_free_inference_max_abs_difference_C": 0.0,
+  "cross_batch_max_abs_difference_C": 0.0555419921875,
+  "cross_batch_note": "Different GPU convolution batch shapes under the original TF32 setting; same-batch target access checked separately.",
+  "tested_environment": {
+    "python": "3.9.2",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "torch": "2.8.0+cu126",
+    "device": "cuda",
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "cudnn_allow_tf32": true,
+    "cuda_matmul_allow_tf32": false
+  },
+  "excluded": [
+    "raw industrial CSV and measured-path derivatives",
+    "reviewer documents and manuscript Word files",
+    "real-field display processing",
+    "full from-scratch retraining and auxiliary timing/spectrum studies"
+  ]
+}

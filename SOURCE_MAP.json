@@ -1,0 +1,1283 @@
+[
+  {
+    "source_relative": "NewExperiment/ablation/models_attention/attention.pth",
+    "source_sha256": "c70a9b434d5ed29f3a8bda76f5f7c7d422b33bd7909fa376c0f70c4ce68fcd12",
+    "delivered_relative": "assets/NewExperiment/ablation/models_attention/attention.pth",
+    "delivered_sha256": "c70a9b434d5ed29f3a8bda76f5f7c7d422b33bd7909fa376c0f70c4ce68fcd12",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_attention/base.pth",
+    "source_sha256": "e8a103dcd6ce8fcaf2f16f1f48f624aa8490de8127e6ea5a39377542e60395d4",
+    "delivered_relative": "assets/NewExperiment/ablation/models_attention/base.pth",
+    "delivered_sha256": "e8a103dcd6ce8fcaf2f16f1f48f624aa8490de8127e6ea5a39377542e60395d4",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_attention/plain.pth",
+    "source_sha256": "007e609503251d6922f319adc949dffcbc2a1294920ee87d96d486c647ca946a",
+    "delivered_relative": "assets/NewExperiment/ablation/models_attention/plain.pth",
+    "delivered_sha256": "007e609503251d6922f319adc949dffcbc2a1294920ee87d96d486c647ca946a",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_learning/direct.pth",
+    "source_sha256": "b1a4b85ffb5ba60be24859f4c35e7226766c4511cf3f225a3e9c7b928d28187b",
+    "delivered_relative": "assets/NewExperiment/ablation/models_learning/direct.pth",
+    "delivered_sha256": "b1a4b85ffb5ba60be24859f4c35e7226766c4511cf3f225a3e9c7b928d28187b",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_learning/residual.pth",
+    "source_sha256": "32c4e5cf0dcf69fcbcbac1538b1b5da95bc11d58bc06d857ba89d24ffe0963e1",
+    "delivered_relative": "assets/NewExperiment/ablation/models_learning/residual.pth",
+    "delivered_sha256": "32c4e5cf0dcf69fcbcbac1538b1b5da95bc11d58bc06d857ba89d24ffe0963e1",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_loss/L1.pth",
+    "source_sha256": "f0a4ee6092779e8eafab00b899d6c92f79e913a0b3a9a5ca96e686b6bab96cb3",
+    "delivered_relative": "assets/NewExperiment/ablation/models_loss/L1.pth",
+    "delivered_sha256": "f0a4ee6092779e8eafab00b899d6c92f79e913a0b3a9a5ca96e686b6bab96cb3",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_loss/MSE.pth",
+    "source_sha256": "4657981aa166245fc902c7550567877b259cc37ef274bd291113d7f21bbea88f",
+    "delivered_relative": "assets/NewExperiment/ablation/models_loss/MSE.pth",
+    "delivered_sha256": "4657981aa166245fc902c7550567877b259cc37ef274bd291113d7f21bbea88f",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_loss/SmoothL1.pth",
+    "source_sha256": "83c9ac83fef2788081b12d7c45ab9e4d0db9c2ab2378de2514d9a6bcdf54817a",
+    "delivered_relative": "assets/NewExperiment/ablation/models_loss/SmoothL1.pth",
+    "delivered_sha256": "83c9ac83fef2788081b12d7c45ab9e4d0db9c2ab2378de2514d9a6bcdf54817a",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_rbf/baseline_seed123.pth",
+    "source_sha256": "39341f8c03cd1b2ed93153eefe0a70c75d1f99af6271dad06593244cbaaa09f5",
+    "delivered_relative": "assets/NewExperiment/ablation/models_rbf/baseline_seed123.pth",
+    "delivered_sha256": "39341f8c03cd1b2ed93153eefe0a70c75d1f99af6271dad06593244cbaaa09f5",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_rbf/baseline_seed42.pth",
+    "source_sha256": "1b120991b1ef32a14bd7cd795c87b5ea96fba69690a138063fddcb26b5be793a",
+    "delivered_relative": "assets/NewExperiment/ablation/models_rbf/baseline_seed42.pth",
+    "delivered_sha256": "1b120991b1ef32a14bd7cd795c87b5ea96fba69690a138063fddcb26b5be793a",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_rbf/baseline_seed456.pth",
+    "source_sha256": "6fd0bfa3fb820a01215a7acd5316d58fbb90ef6b078c843a029b8f85ee311048",
+    "delivered_relative": "assets/NewExperiment/ablation/models_rbf/baseline_seed456.pth",
+    "delivered_sha256": "6fd0bfa3fb820a01215a7acd5316d58fbb90ef6b078c843a029b8f85ee311048",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_rbf/multiseed_results.json",
+    "source_sha256": "2cf293b97e7a006cba8f0c63556b09292029eb746867591d6639e508093725d1",
+    "delivered_relative": "assets/NewExperiment/ablation/models_rbf/multiseed_results.json",
+    "delivered_sha256": "5e9df96648233db28ea3f3392025fe8ab21d3669ee1b98f7a7de9b87e3e4b32b",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_stage1/rbf.pth",
+    "source_sha256": "bf0f9391b8b15b12c36b662ea6c6deed2cd583e922bfcf8a7333e6079947e5a0",
+    "delivered_relative": "assets/NewExperiment/ablation/models_stage1/rbf.pth",
+    "delivered_sha256": "bf0f9391b8b15b12c36b662ea6c6deed2cd583e922bfcf8a7333e6079947e5a0",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_stage1/tikhonov.pth",
+    "source_sha256": "6820a184f66b350d3a69bbb627ef0a24650b4c96ccbd7198bb678420d294dcc3",
+    "delivered_relative": "assets/NewExperiment/ablation/models_stage1/tikhonov.pth",
+    "delivered_sha256": "6820a184f66b350d3a69bbb627ef0a24650b4c96ccbd7198bb678420d294dcc3",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_tikhonov_grid/grid12.pth",
+    "source_sha256": "0aeb67910137c71cbdf8df69bca45ebc0d5a5753e6159ac338e5a554b7356a53",
+    "delivered_relative": "assets/NewExperiment/ablation/models_tikhonov_grid/grid12.pth",
+    "delivered_sha256": "0aeb67910137c71cbdf8df69bca45ebc0d5a5753e6159ac338e5a554b7356a53",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_tikhonov_grid/grid16.pth",
+    "source_sha256": "d01f9ee6a2cc9dd4ba6746dc86b42cbec67bd92135a4fe5796e98d7df701f0c2",
+    "delivered_relative": "assets/NewExperiment/ablation/models_tikhonov_grid/grid16.pth",
+    "delivered_sha256": "d01f9ee6a2cc9dd4ba6746dc86b42cbec67bd92135a4fe5796e98d7df701f0c2",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_tikhonov_grid/grid20.pth",
+    "source_sha256": "493ecaa20b0d1a965109ad35e575d3934ba9f73ab591b89cf323bc5bed3d7ac9",
+    "delivered_relative": "assets/NewExperiment/ablation/models_tikhonov_grid/grid20.pth",
+    "delivered_sha256": "493ecaa20b0d1a965109ad35e575d3934ba9f73ab591b89cf323bc5bed3d7ac9",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_training/dual_only.pth",
+    "source_sha256": "a13b75d8620a36f39c3bf8ef7ac69cf4b92fe2b6a4f64adbe6d20af4d27eecdf",
+    "delivered_relative": "assets/NewExperiment/ablation/models_training/dual_only.pth",
+    "delivered_sha256": "a13b75d8620a36f39c3bf8ef7ac69cf4b92fe2b6a4f64adbe6d20af4d27eecdf",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_training/mixed_subset.pth",
+    "source_sha256": "4817ca6bc323968b46469003b972a054e8c7b6cbe173c4d076338d6588f9b75d",
+    "delivered_relative": "assets/NewExperiment/ablation/models_training/mixed_subset.pth",
+    "delivered_sha256": "4817ca6bc323968b46469003b972a054e8c7b6cbe173c4d076338d6588f9b75d",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_training/single_only.pth",
+    "source_sha256": "22d66e797260cbf84ce4d57dc26614c35533ad27a7f42036f519579a4bae2693",
+    "delivered_relative": "assets/NewExperiment/ablation/models_training/single_only.pth",
+    "delivered_sha256": "22d66e797260cbf84ce4d57dc26614c35533ad27a7f42036f519579a4bae2693",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/models_training/triple_only.pth",
+    "source_sha256": "20108d367c378f7d69d427d74ba16ad39a62ea29d82969acfb03d2b2a57b9e08",
+    "delivered_relative": "assets/NewExperiment/ablation/models_training/triple_only.pth",
+    "delivered_sha256": "20108d367c378f7d69d427d74ba16ad39a62ea29d82969acfb03d2b2a57b9e08",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_attention_attention.json",
+    "source_sha256": "a8043391a34ad01b1fdf5e5e9ccc2f532534106268e05acd2e4bfbe4ee8dc982",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_attention_attention.json",
+    "delivered_sha256": "2b9222b9dfca5c86fe9c1a5fbd60b1fc91a2c2044ad6475faefdcfd8a4e0a243",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_attention_base.json",
+    "source_sha256": "c9714460841b5df37ff1a9964241c74cdc1680fe0379e8d2bff5f988695c7099",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_attention_base.json",
+    "delivered_sha256": "a71f5b98c86a4507ece06134713b86bde82e106de061970810a2780b5117a4e9",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_attention_plain.json",
+    "source_sha256": "e3619ebedb87b7d3ca8db700fe1bcd21b85aaae7002653f35410683efb78c545",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_attention_plain.json",
+    "delivered_sha256": "17d2c9777222bdf113a34aad878d319a60353dc0107009239e00071cb886076f",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_grid_grid12.json",
+    "source_sha256": "83df797d29685f9e516bc69301d679b5ee8bb939f5f51eb6b57f866f2c692e65",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_grid_grid12.json",
+    "delivered_sha256": "fc08d5416339b428c5d057d72b027d959002d4adf0e7fd55f41174b2c2879595",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_grid_grid16.json",
+    "source_sha256": "ec2de66e87ee5216385546360f56c586b8d16d27d76c90aaff5f56a2acdce6f6",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_grid_grid16.json",
+    "delivered_sha256": "5c6ece8df316ec299b013bcec719edaf6553b789b3a6ffbf71bd8e04e4ccbff3",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_grid_grid20.json",
+    "source_sha256": "70c5500599aa0b8ae5824715dbb8a273a840b3f783c04c765a498e92cc116ba3",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_grid_grid20.json",
+    "delivered_sha256": "3cf749de5396141290245ba3263ff58462299991921656861e014cd52d9f9fee",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_learning_direct.json",
+    "source_sha256": "d809c714feb5cd7e5e9c0c59376511fe782a0b4899534b7bee8d03db7a5dd16c",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_learning_direct.json",
+    "delivered_sha256": "553ce13d08a3836d53f8b55692c2c89ee6a07db494228141676f0fa675f7a8f1",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_learning_residual.json",
+    "source_sha256": "55f3d2936e5fea79d7a4756a2d1334672571cd3aa33d0834e69f2b9311db443f",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_learning_residual.json",
+    "delivered_sha256": "251f1d6f680ec69c5946610d8547e3aff80e6d197b1d8a2624c3d7dd5c28e856",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_loss_L1.json",
+    "source_sha256": "180394d8fe3c0a04eae9a52197e1f72fa4b661038deea5b63899244400a12525",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_loss_L1.json",
+    "delivered_sha256": "9eee5d46044a872afcb301a8fdfb94a0a15b150d5763871e02ce1474f9e22b94",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_loss_MSE.json",
+    "source_sha256": "b8c3c12eb44df67ea95a0b5a846efc523169a99658b4bd35607c85b5840c0453",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_loss_MSE.json",
+    "delivered_sha256": "488cfd17e66b6c9add361fbbc7c9a3cb6be0346b62ebc78ec4843320906272ad",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_loss_SmoothL1.json",
+    "source_sha256": "957998387e9b80aa1c76f2891dfe893bf8340a77b5e5b2340053b94b35c661cc",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_loss_SmoothL1.json",
+    "delivered_sha256": "4b1dda96c9bb9c0855f0fca5afac0217ddfec21f6d542f00a893d041f99f5447",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_stage1_rbf.json",
+    "source_sha256": "76bed3a1e59fe94b352282354746f9d96192fc400c86b3a28b1ce15d3fe8206b",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_stage1_rbf.json",
+    "delivered_sha256": "2322467833da1f473986a83d01bda132d26572535760124610489e9fd9596214",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_stage1_tikhonov.json",
+    "source_sha256": "a1458f1b9774e51cc029d1e44a40879dc7a56ebf4bfcae6ca75d8d8eb16f27d1",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_stage1_tikhonov.json",
+    "delivered_sha256": "13fb107e4d8647fd8c7fdeb51fda7c6fdfc6ce68b9cd07c19107f6b2df8df63d",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_training_dual_only.json",
+    "source_sha256": "efbdbf6c2e83113e49eb70ddf99391108ce985f54112e431c41c29af86f13f07",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_training_dual_only.json",
+    "delivered_sha256": "ce2574e75f9510879db4522fe1f431337e7bdae3b94525ac7902d1c81be156e1",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_training_mixed_subset.json",
+    "source_sha256": "1553c334e3ce1f08f7a6bfd56854b6eaa314dea7e1e499e7d2c3ff9dd874d9f4",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_training_mixed_subset.json",
+    "delivered_sha256": "265e0332ff319d8d571e756969f4e7c9b7048de6e13ef702efc8e14a99df57f5",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_training_single_only.json",
+    "source_sha256": "f5c7350d1b8c52844d658bc9cb4df4fa5bc67646cf3883a9600e9f99bf0bf53d",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_training_single_only.json",
+    "delivered_sha256": "56d6a710b204254f845d3ebb436c26e23b8a7cc65653f6e2f60462e5047a54c5",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/ablation/results/ablation_training_triple_only.json",
+    "source_sha256": "57834d9b47c623d72dabc3627d78fb504e9d9128e3993c799543f2547ef683ad",
+    "delivered_relative": "assets/NewExperiment/ablation/results/ablation_training_triple_only.json",
+    "delivered_sha256": "2843240c87dc04081e53f14a7230c90869a5487592a0a6167608f00be9be10b8",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/data_e2e_baseline/dual_peak/train.npz",
+    "source_sha256": "76d88b62c7d4734a37d8f6075b391510b41c8dd21211517ecaa5e0d526695373",
+    "delivered_relative": "assets/NewExperiment/data_e2e_baseline/dual_peak/train.npz",
+    "delivered_sha256": "76d88b62c7d4734a37d8f6075b391510b41c8dd21211517ecaa5e0d526695373",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/data_e2e_baseline/dual_peak/val.npz",
+    "source_sha256": "171b4368e184248e97724a7bf0fcb46fbb2f53c2ce214bd40de1d9399d5faf94",
+    "delivered_relative": "assets/NewExperiment/data_e2e_baseline/dual_peak/val.npz",
+    "delivered_sha256": "171b4368e184248e97724a7bf0fcb46fbb2f53c2ce214bd40de1d9399d5faf94",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/data_e2e_baseline/normalization.json",
+    "source_sha256": "b4d9f78c8925de11a21e5604b3be71a56ad60bd9985641bfa6ba78c07a0d8f69",
+    "delivered_relative": "assets/NewExperiment/data_e2e_baseline/normalization.json",
+    "delivered_sha256": "73a327b035581cb63f3a40e68caee70b217b130e82e4485da91711f3e4cdfc29",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/data_e2e_baseline/single_peak/train.npz",
+    "source_sha256": "9add6261e11592be691c263189b94b6a23d38d697b346f71a716113095b6c6c8",
+    "delivered_relative": "assets/NewExperiment/data_e2e_baseline/single_peak/train.npz",
+    "delivered_sha256": "9add6261e11592be691c263189b94b6a23d38d697b346f71a716113095b6c6c8",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/data_e2e_baseline/single_peak/val.npz",
+    "source_sha256": "3eab419832a0d5ba82c10d8e656000eec314161081da4a2378cc2b1419a2f6e7",
+    "delivered_relative": "assets/NewExperiment/data_e2e_baseline/single_peak/val.npz",
+    "delivered_sha256": "3eab419832a0d5ba82c10d8e656000eec314161081da4a2378cc2b1419a2f6e7",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/data_e2e_baseline/triple_peak/train.npz",
+    "source_sha256": "8115e5c009732f35d2a85356ad139d570c868b0fe6c502fe42ab029637f21599",
+    "delivered_relative": "assets/NewExperiment/data_e2e_baseline/triple_peak/train.npz",
+    "delivered_sha256": "8115e5c009732f35d2a85356ad139d570c868b0fe6c502fe42ab029637f21599",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/data_e2e_baseline/triple_peak/val.npz",
+    "source_sha256": "fdac3ea7283d0f2aaf672aa906f92d396b6da499bed6648ad830940563e97748",
+    "delivered_relative": "assets/NewExperiment/data_e2e_baseline/triple_peak/val.npz",
+    "delivered_sha256": "fdac3ea7283d0f2aaf672aa906f92d396b6da499bed6648ad830940563e97748",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/data_tikhonov_12x12/normalization.json",
+    "source_sha256": "2ce8923bb96dff3bb842613586a97691f5d3fce502acc28664316c415b477087",
+    "delivered_relative": "assets/NewExperiment/data_tikhonov_12x12/normalization.json",
+    "delivered_sha256": "eef4761d7dc1bcb7247a56ab8aef03dc3f270222faae0f522c45a1d15c28c453",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/data_tikhonov_16x16/dual_peak/meta.json",
+    "source_sha256": "b6bb94c8db1b8afb1c0bd95b7375883c2183375102eedd5b45df72e358828f1c",
+    "delivered_relative": "assets/NewExperiment/data_tikhonov_16x16/dual_peak/meta.json",
+    "delivered_sha256": "a80f3b185ea6101a88b614c9548a91b21bba6333c16b3744882294563b610561",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/data_tikhonov_16x16/dual_peak/train.npz",
+    "source_sha256": "64c3c2d7f953a741f6e2d4cb6bf431fa0f78dd5fba73a31f1f78acaed8e65b92",
+    "delivered_relative": "assets/NewExperiment/data_tikhonov_16x16/dual_peak/train.npz",
+    "delivered_sha256": "64c3c2d7f953a741f6e2d4cb6bf431fa0f78dd5fba73a31f1f78acaed8e65b92",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/data_tikhonov_16x16/dual_peak/val.npz",
+    "source_sha256": "4b276ac615af1f3147d49dc079e614356b50dce1edbcb92ff7586f505ec5ec02",
+    "delivered_relative": "assets/NewExperiment/data_tikhonov_16x16/dual_peak/val.npz",
+    "delivered_sha256": "4b276ac615af1f3147d49dc079e614356b50dce1edbcb92ff7586f505ec5ec02",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/data_tikhonov_16x16/normalization.json",
+    "source_sha256": "2ce8923bb96dff3bb842613586a97691f5d3fce502acc28664316c415b477087",
+    "delivered_relative": "assets/NewExperiment/data_tikhonov_16x16/normalization.json",
+    "delivered_sha256": "eef4761d7dc1bcb7247a56ab8aef03dc3f270222faae0f522c45a1d15c28c453",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/data_tikhonov_16x16/single_peak/meta.json",
+    "source_sha256": "af23be1973bbb2a8b733ca0721a3fcdc61850fb7a133dbdc6ed376ad6b043bad",
+    "delivered_relative": "assets/NewExperiment/data_tikhonov_16x16/single_peak/meta.json",
+    "delivered_sha256": "e7b62fd7479ba84947ac295159769619dd9803831dd07108bb9889e29b11fe32",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/data_tikhonov_16x16/single_peak/train.npz",
+    "source_sha256": "db32fe25685522b6541ba6331fddf3aa3cf66c9b0a3ba50a70e3263d00855e6d",
+    "delivered_relative": "assets/NewExperiment/data_tikhonov_16x16/single_peak/train.npz",
+    "delivered_sha256": "db32fe25685522b6541ba6331fddf3aa3cf66c9b0a3ba50a70e3263d00855e6d",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/data_tikhonov_16x16/single_peak/val.npz",
+    "source_sha256": "b1e5e6d4683fa7f8d9f4c88bae137b9a626cd0fb11b27f17daa40aff3fdf9868",
+    "delivered_relative": "assets/NewExperiment/data_tikhonov_16x16/single_peak/val.npz",
+    "delivered_sha256": "b1e5e6d4683fa7f8d9f4c88bae137b9a626cd0fb11b27f17daa40aff3fdf9868",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/data_tikhonov_16x16/triple_peak/meta.json",
+    "source_sha256": "7e0604f4a6e2d4c88c3c38dcf40f2b6f76b3f373a1ab358e4c8694d4676cbf23",
+    "delivered_relative": "assets/NewExperiment/data_tikhonov_16x16/triple_peak/meta.json",
+    "delivered_sha256": "fb126008d719f7613c8b4fd68a469a36ad294eb7499566c76933c40f82532325",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/data_tikhonov_16x16/triple_peak/train.npz",
+    "source_sha256": "efb9912cce8d7bf87eb6023d018a43c2e61e0c09b497bc408ed16c8e2c22eac3",
+    "delivered_relative": "assets/NewExperiment/data_tikhonov_16x16/triple_peak/train.npz",
+    "delivered_sha256": "efb9912cce8d7bf87eb6023d018a43c2e61e0c09b497bc408ed16c8e2c22eac3",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/data_tikhonov_16x16/triple_peak/val.npz",
+    "source_sha256": "d060f06a0ebe11a91cfeffb42b7aacef6de5af0d0a2e82d34115e67b55f76189",
+    "delivered_relative": "assets/NewExperiment/data_tikhonov_16x16/triple_peak/val.npz",
+    "delivered_sha256": "d060f06a0ebe11a91cfeffb42b7aacef6de5af0d0a2e82d34115e67b55f76189",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/data_tikhonov_20x20/normalization.json",
+    "source_sha256": "2ce8923bb96dff3bb842613586a97691f5d3fce502acc28664316c415b477087",
+    "delivered_relative": "assets/NewExperiment/data_tikhonov_20x20/normalization.json",
+    "delivered_sha256": "eef4761d7dc1bcb7247a56ab8aef03dc3f270222faae0f522c45a1d15c28c453",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models/seed123.pth",
+    "source_sha256": "cdd70a7b9ddbee6b5a6157fce8002f33d41d68c7cb912960717a8f29b4a0703a",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models/seed123.pth",
+    "delivered_sha256": "cdd70a7b9ddbee6b5a6157fce8002f33d41d68c7cb912960717a8f29b4a0703a",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models/seed42.pth",
+    "source_sha256": "ad4384657358f1f5223dd6a7238d98ab036df42ed6889e57807d4c92a0b6d5f6",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models/seed42.pth",
+    "delivered_sha256": "ad4384657358f1f5223dd6a7238d98ab036df42ed6889e57807d4c92a0b6d5f6",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models/seed456.pth",
+    "source_sha256": "c2d3d78537573ec85946d7958ccce1079b48841181b9ad7d90b33197eedea11f",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models/seed456.pth",
+    "delivered_sha256": "c2d3d78537573ec85946d7958ccce1079b48841181b9ad7d90b33197eedea11f",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models_capacity/v1/seed123.pth",
+    "source_sha256": "5d0248cf06c56e6f1abb356587d130d23b89e560947af04e3e0b4af445204939",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models_capacity/v1/seed123.pth",
+    "delivered_sha256": "5d0248cf06c56e6f1abb356587d130d23b89e560947af04e3e0b4af445204939",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models_capacity/v1/seed42.pth",
+    "source_sha256": "a72fcd24046f3b76961c04cb2df0c7a2df3c4ba03a2b7240719fb44f76df06d6",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models_capacity/v1/seed42.pth",
+    "delivered_sha256": "a72fcd24046f3b76961c04cb2df0c7a2df3c4ba03a2b7240719fb44f76df06d6",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models_capacity/v1/seed456.pth",
+    "source_sha256": "7263f2b2dd4157cdc6db3ad38ee3916a055026d06fba276ad74e0ad6090e7945",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models_capacity/v1/seed456.pth",
+    "delivered_sha256": "7263f2b2dd4157cdc6db3ad38ee3916a055026d06fba276ad74e0ad6090e7945",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models_capacity/v3/seed123.pth",
+    "source_sha256": "e0e8bbf44b1de95070b1b79a6d552285feaea7bc8e5e41d2ee73a2e84d43f182",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models_capacity/v3/seed123.pth",
+    "delivered_sha256": "e0e8bbf44b1de95070b1b79a6d552285feaea7bc8e5e41d2ee73a2e84d43f182",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models_capacity/v3/seed42.pth",
+    "source_sha256": "f6365922ea92a7262073c4975fcc96fe0dce4c2a97abeabe72314c193ce91c5e",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models_capacity/v3/seed42.pth",
+    "delivered_sha256": "f6365922ea92a7262073c4975fcc96fe0dce4c2a97abeabe72314c193ce91c5e",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models_capacity/v3/seed456.pth",
+    "source_sha256": "99d5c84141a01dc6c637122cee405bdbd9f7a0244f51c132466dca184c0f45ae",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models_capacity/v3/seed456.pth",
+    "delivered_sha256": "99d5c84141a01dc6c637122cee405bdbd9f7a0244f51c132466dca184c0f45ae",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models_e2e_a/seed123.pth",
+    "source_sha256": "8885c493136243472a0d86e5e932a08dd25c0fe28d5e09f1f404f63501354c57",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models_e2e_a/seed123.pth",
+    "delivered_sha256": "8885c493136243472a0d86e5e932a08dd25c0fe28d5e09f1f404f63501354c57",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models_e2e_a/seed42.pth",
+    "source_sha256": "482ef519437fe9a5f8472e54e71ae914912b07ecfdd6783ffe674d1dd6b94a1b",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models_e2e_a/seed42.pth",
+    "delivered_sha256": "482ef519437fe9a5f8472e54e71ae914912b07ecfdd6783ffe674d1dd6b94a1b",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models_e2e_a/seed456.pth",
+    "source_sha256": "1a7ca513e6a0db62b48f532992e3bb0a2386d2344784554ff394650097cfc725",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models_e2e_a/seed456.pth",
+    "delivered_sha256": "1a7ca513e6a0db62b48f532992e3bb0a2386d2344784554ff394650097cfc725",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models_multiscale/v1_multi/seed123.pth",
+    "source_sha256": "6ae06255da3926530dbb8b23f54b743337917e508eebb143bd34a51b6a33cbbe",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models_multiscale/v1_multi/seed123.pth",
+    "delivered_sha256": "6ae06255da3926530dbb8b23f54b743337917e508eebb143bd34a51b6a33cbbe",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models_multiscale/v1_multi/seed42.pth",
+    "source_sha256": "257513a6bcf49a42ef00c08253c1c67a06dbc8421e2fb48d5526d3201881590a",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models_multiscale/v1_multi/seed42.pth",
+    "delivered_sha256": "257513a6bcf49a42ef00c08253c1c67a06dbc8421e2fb48d5526d3201881590a",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/models_multiscale/v1_multi/seed456.pth",
+    "source_sha256": "8121980598a3c82618d5a396300271932c2fb97f4e23cc46732b75f48d2fffa7",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/models_multiscale/v1_multi/seed456.pth",
+    "delivered_sha256": "8121980598a3c82618d5a396300271932c2fb97f4e23cc46732b75f48d2fffa7",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/results_e2e_a/e2e_comparison.csv",
+    "source_sha256": "02eeff129d10d93f0df7d94a5cf56a401285f94ef657ba3dd12825206f53bd33",
+    "delivered_relative": "assets/NewExperiment/e2e_baseline/results_e2e_a/e2e_comparison.csv",
+    "delivered_sha256": "02eeff129d10d93f0df7d94a5cf56a401285f94ef657ba3dd12825206f53bd33",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/dataset_config.json",
+    "source_sha256": "88b312e738085bd2a8edc904363acc4894362d01162cdfb415c0fd9675faa41b",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/dataset_config.json",
+    "delivered_sha256": "3db4d590c42eee98cc313c895cc06977fa0b99f5aa4ca5631cab03a9eb0b6655",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/dual_peak/train.npz",
+    "source_sha256": "143cc4ca1bb3ca23fe126ea77d5116885c976512a02537aaea744015c7d8a31f",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/dual_peak/train.npz",
+    "delivered_sha256": "143cc4ca1bb3ca23fe126ea77d5116885c976512a02537aaea744015c7d8a31f",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/dual_peak/val.npz",
+    "source_sha256": "c69422570f385f325a3df7ff4efa5863fe82e0f887a8781cf46b06329f21b148",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/dual_peak/val.npz",
+    "delivered_sha256": "c69422570f385f325a3df7ff4efa5863fe82e0f887a8781cf46b06329f21b148",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/normalization.json",
+    "source_sha256": "77be38cd4ba9816d6a80ba211607eae8900a6c5a824f634277d15e8a68365e4d",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/normalization.json",
+    "delivered_sha256": "e1662311ff7a14c0749cde0dc76add1d968b5e431f3ff58d48b8da0ea35d11f3",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/single_peak/train.npz",
+    "source_sha256": "76698330bc1fe39fbeb65b20549b79a3bf6eee58e62508ccee99bd07662a7ffb",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/single_peak/train.npz",
+    "delivered_sha256": "76698330bc1fe39fbeb65b20549b79a3bf6eee58e62508ccee99bd07662a7ffb",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/single_peak/val.npz",
+    "source_sha256": "93904e107d8fb734885cebc875785b7437c17a5fbe350597f418edcafc45278c",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/single_peak/val.npz",
+    "delivered_sha256": "93904e107d8fb734885cebc875785b7437c17a5fbe350597f418edcafc45278c",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/triple_peak/train.npz",
+    "source_sha256": "404b745469fe0f922cbc39e8d80c6baec1d4df465cbb9ef59dd6fb53c7423b8d",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/triple_peak/train.npz",
+    "delivered_sha256": "404b745469fe0f922cbc39e8d80c6baec1d4df465cbb9ef59dd6fb53c7423b8d",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/triple_peak/val.npz",
+    "source_sha256": "163d8c65e4ec8174318464534b1f28adc02996c221a92efdf07d3aa31b72e7a8",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12/triple_peak/val.npz",
+    "delivered_sha256": "163d8c65e4ec8174318464534b1f28adc02996c221a92efdf07d3aa31b72e7a8",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/dataset_config.json",
+    "source_sha256": "11ba38aa381e1e319dd5aa699fffee95ede0bc2ff8bb74156b3af74916fe429a",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/dataset_config.json",
+    "delivered_sha256": "7d3b4a7fa17ce87c0bcdf29e1022e2c5292b0c7b674c16a4295a910e06ef4aba",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/dual_peak/train.npz",
+    "source_sha256": "ae37e46e1d2843c26bce81eba4185f6992dc59ba13275ad1cf2754afa28c34db",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/dual_peak/train.npz",
+    "delivered_sha256": "ae37e46e1d2843c26bce81eba4185f6992dc59ba13275ad1cf2754afa28c34db",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/dual_peak/val.npz",
+    "source_sha256": "5bae29a399c92e7906a0991b3f3b1fb39fd780cb45f2cfc4055780196b0830bb",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/dual_peak/val.npz",
+    "delivered_sha256": "5bae29a399c92e7906a0991b3f3b1fb39fd780cb45f2cfc4055780196b0830bb",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/normalization.json",
+    "source_sha256": "97a4c045cfc9f21966708901ab28ac4d22dbcb1237d96d4a8f4bee504690befa",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/normalization.json",
+    "delivered_sha256": "19d7c219a4a597112f268aef6d833c4e5e8003a1ba8af8bf78aca5b5e37d0d21",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/single_peak/train.npz",
+    "source_sha256": "b928a98f6fca079f875d17f7850af96e3706b9fd57de6595da11d8b79adc19b2",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/single_peak/train.npz",
+    "delivered_sha256": "b928a98f6fca079f875d17f7850af96e3706b9fd57de6595da11d8b79adc19b2",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/single_peak/val.npz",
+    "source_sha256": "5a721786fd9562414cd7a56eccc8c2c7ba442b680ebd5f4b9eeb6109eb66b8d7",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/single_peak/val.npz",
+    "delivered_sha256": "5a721786fd9562414cd7a56eccc8c2c7ba442b680ebd5f4b9eeb6109eb66b8d7",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/triple_peak/train.npz",
+    "source_sha256": "10e225d5b601e18f4c76d3ef92053ccb5b452e5c6d5140181688ad39ab7548d8",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/triple_peak/train.npz",
+    "delivered_sha256": "10e225d5b601e18f4c76d3ef92053ccb5b452e5c6d5140181688ad39ab7548d8",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/triple_peak/val.npz",
+    "source_sha256": "a59a409598b6186935699ffa66f7365e6bd8b83d1ab50a3488aea7ed6ed7e181",
+    "delivered_relative": "assets/NewExperiment/factory_validation/data_factory_geometry_tikhonov_12x12_fullrange_v1/triple_peak/val.npz",
+    "delivered_sha256": "a59a409598b6186935699ffa66f7365e6bd8b83d1ab50a3488aea7ed6ed7e181",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed123/direct_best.pth",
+    "source_sha256": "5d4df9a17c20065918df9bf0802644d26501ed17e6616db6f4d556195f8524c1",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed123/direct_best.pth",
+    "delivered_sha256": "5d4df9a17c20065918df9bf0802644d26501ed17e6616db6f4d556195f8524c1",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed123/direct_config.json",
+    "source_sha256": "cc344070c819c9ee36b60ee5eed217c28aa6c8178d2b2560b267d15e4b45f666",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed123/direct_config.json",
+    "delivered_sha256": "7fa7eda3feef36f1da46b5a2045ecb746532bf14f825406f77a5273e5ca52d0c",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed123/normalization.json",
+    "source_sha256": "77be38cd4ba9816d6a80ba211607eae8900a6c5a824f634277d15e8a68365e4d",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed123/normalization.json",
+    "delivered_sha256": "e1662311ff7a14c0749cde0dc76add1d968b5e431f3ff58d48b8da0ea35d11f3",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed42/direct_best.pth",
+    "source_sha256": "2a333048a65b7ece6e6e2494aa43653b1c3feeae0fa0c215e486c61e84750ebe",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed42/direct_best.pth",
+    "delivered_sha256": "2a333048a65b7ece6e6e2494aa43653b1c3feeae0fa0c215e486c61e84750ebe",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed42/direct_config.json",
+    "source_sha256": "d4abfdab15a8bb2683298d49a42c2836b68396bbd362c0a9f295c6bce4026c78",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed42/direct_config.json",
+    "delivered_sha256": "5053a6e055b06ba2be1175d87716a2adce823f11597097fe55d4592380e7e7c5",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed42/normalization.json",
+    "source_sha256": "77be38cd4ba9816d6a80ba211607eae8900a6c5a824f634277d15e8a68365e4d",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed42/normalization.json",
+    "delivered_sha256": "e1662311ff7a14c0749cde0dc76add1d968b5e431f3ff58d48b8da0ea35d11f3",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed456/direct_best.pth",
+    "source_sha256": "49c4c3ef4da5fe176e99bfa0ca61603d352935fcb7809dc3ba6cb5384d31c357",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed456/direct_best.pth",
+    "delivered_sha256": "49c4c3ef4da5fe176e99bfa0ca61603d352935fcb7809dc3ba6cb5384d31c357",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed456/direct_config.json",
+    "source_sha256": "3b5014bac288c368ece4a2dfba495e8453c74f92949e113ddb0997f0a59fe5a4",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed456/direct_config.json",
+    "delivered_sha256": "c18dbfd63bb3a2c37ce0ef0e1a5ad76cceee7ef65136f17372367b41c9e3c690",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed456/normalization.json",
+    "source_sha256": "77be38cd4ba9816d6a80ba211607eae8900a6c5a824f634277d15e8a68365e4d",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_direct_ablation/seed456/normalization.json",
+    "delivered_sha256": "e1662311ff7a14c0749cde0dc76add1d968b5e431f3ff58d48b8da0ea35d11f3",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_multiseed/seed123/normalization.json",
+    "source_sha256": "77be38cd4ba9816d6a80ba211607eae8900a6c5a824f634277d15e8a68365e4d",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_multiseed/seed123/normalization.json",
+    "delivered_sha256": "e1662311ff7a14c0749cde0dc76add1d968b5e431f3ff58d48b8da0ea35d11f3",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_multiseed/seed123/stage2_best.pth",
+    "source_sha256": "79df6e02008628c4d90423a2cc1af3af26e4be7091181b2483b6d8fc58bd0285",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_multiseed/seed123/stage2_best.pth",
+    "delivered_sha256": "79df6e02008628c4d90423a2cc1af3af26e4be7091181b2483b6d8fc58bd0285",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_multiseed/seed123/stage2_config.json",
+    "source_sha256": "051565be5358946dd1af172caae5fc8084243fbdd40e29cae819ab296e6ad250",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_multiseed/seed123/stage2_config.json",
+    "delivered_sha256": "6903a2e7d067f0e79f07c7146921ff880875e812a97332ade2fef6100394ad25",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_multiseed/seed42/normalization.json",
+    "source_sha256": "77be38cd4ba9816d6a80ba211607eae8900a6c5a824f634277d15e8a68365e4d",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_multiseed/seed42/normalization.json",
+    "delivered_sha256": "e1662311ff7a14c0749cde0dc76add1d968b5e431f3ff58d48b8da0ea35d11f3",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_multiseed/seed42/stage2_best.pth",
+    "source_sha256": "c39ab0737eeb9af01f16d751a22e48012b00b9f361f402c3dfa14d3720d5917e",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_multiseed/seed42/stage2_best.pth",
+    "delivered_sha256": "c39ab0737eeb9af01f16d751a22e48012b00b9f361f402c3dfa14d3720d5917e",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_multiseed/seed42/stage2_config.json",
+    "source_sha256": "c6cb73e71c0a0f41a124bcc88b9e7c76f0e05cd70bc1043f41d07c83845a8aef",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_multiseed/seed42/stage2_config.json",
+    "delivered_sha256": "e9ace3cd5bfdd134388a200c7ffa8df8da62bec97060c1a02edac4c8f6e38407",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_multiseed/seed456/normalization.json",
+    "source_sha256": "77be38cd4ba9816d6a80ba211607eae8900a6c5a824f634277d15e8a68365e4d",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_multiseed/seed456/normalization.json",
+    "delivered_sha256": "e1662311ff7a14c0749cde0dc76add1d968b5e431f3ff58d48b8da0ea35d11f3",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_multiseed/seed456/stage2_best.pth",
+    "source_sha256": "ca855ed8a5e5c3daca6139dcd2032a69d334dae3fba5764d9a4b56623764376e",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_multiseed/seed456/stage2_best.pth",
+    "delivered_sha256": "ca855ed8a5e5c3daca6139dcd2032a69d334dae3fba5764d9a4b56623764376e",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_multiseed/seed456/stage2_config.json",
+    "source_sha256": "097ede0df7efcd19537f9dd49aa29e8a3f31657f964880817c3af61f597e9671",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_multiseed/seed456/stage2_config.json",
+    "delivered_sha256": "6985fd045dc340fcdae1789da23f8ae6f31432258f899e33e0ad9e0bd6fab795",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12/normalization.json",
+    "source_sha256": "77be38cd4ba9816d6a80ba211607eae8900a6c5a824f634277d15e8a68365e4d",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12/normalization.json",
+    "delivered_sha256": "e1662311ff7a14c0749cde0dc76add1d968b5e431f3ff58d48b8da0ea35d11f3",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12/stage2_best.pth",
+    "source_sha256": "692d26b0f356300b50ccccef2cdd17c63e3a5cb86800dcc722447e2a5cb4741b",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12/stage2_best.pth",
+    "delivered_sha256": "692d26b0f356300b50ccccef2cdd17c63e3a5cb86800dcc722447e2a5cb4741b",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12/stage2_config.json",
+    "source_sha256": "4af65a66fab410a22193b17218f6d8afd2f7c57be3bfd5f5bf98abdb519f08ae",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12/stage2_config.json",
+    "delivered_sha256": "eb4021e862edadd2321753ce22c2d05b068d3a6372687d0cc12f3101f4c72446",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12/stage2_results.json",
+    "source_sha256": "9a7e4a70819dadb524cdd923ddef401fd6e9be87457df6f7ae9eba18dbd18ab1",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12/stage2_results.json",
+    "delivered_sha256": "c717f4e5e5a597cbb2b8a9be924f7f61f4cb9412fc495f46f6359f40852ea9c7",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1/normalization.json",
+    "source_sha256": "97a4c045cfc9f21966708901ab28ac4d22dbcb1237d96d4a8f4bee504690befa",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1/normalization.json",
+    "delivered_sha256": "19d7c219a4a597112f268aef6d833c4e5e8003a1ba8af8bf78aca5b5e37d0d21",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1/selected_model.json",
+    "source_sha256": "1833cc25d945c280b505e267e207df29d99b1123374a3e6ba0cfbbec20229cab",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1/selected_model.json",
+    "delivered_sha256": "e6fc99f070c6514e4dd4884e9cfc624a49b9443d980fe8a21340f23d8889cbff",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1/stage2_best.pth",
+    "source_sha256": "af83b624a0c216c9304bd06db7bd4bf1a2ecb72feca9e0565a0ec73766645b19",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1/stage2_best.pth",
+    "delivered_sha256": "af83b624a0c216c9304bd06db7bd4bf1a2ecb72feca9e0565a0ec73766645b19",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1/stage2_config.json",
+    "source_sha256": "58ebd1fb231398297820b43c0558d65c2391a917d69da19e5c5cdb48629e0049",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1/stage2_config.json",
+    "delivered_sha256": "f4280f4c450437b22331d1015465c9dff61dec13f52e2625d19bfd64c32e95ed",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1/stage2_results.json",
+    "source_sha256": "718b5e9443bca23728bd3cf9892369797a7623ced453ff023d470f149bf67c74",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1/stage2_results.json",
+    "delivered_sha256": "5d7667c45c539c193b8893b02ae6e9b0b4970b3d3f0e3fec9be12b434bef379b",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed123/normalization.json",
+    "source_sha256": "97a4c045cfc9f21966708901ab28ac4d22dbcb1237d96d4a8f4bee504690befa",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed123/normalization.json",
+    "delivered_sha256": "19d7c219a4a597112f268aef6d833c4e5e8003a1ba8af8bf78aca5b5e37d0d21",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed123/stage2_best.pth",
+    "source_sha256": "af83b624a0c216c9304bd06db7bd4bf1a2ecb72feca9e0565a0ec73766645b19",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed123/stage2_best.pth",
+    "delivered_sha256": "af83b624a0c216c9304bd06db7bd4bf1a2ecb72feca9e0565a0ec73766645b19",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed123/stage2_config.json",
+    "source_sha256": "58ebd1fb231398297820b43c0558d65c2391a917d69da19e5c5cdb48629e0049",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed123/stage2_config.json",
+    "delivered_sha256": "f4280f4c450437b22331d1015465c9dff61dec13f52e2625d19bfd64c32e95ed",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed42/normalization.json",
+    "source_sha256": "97a4c045cfc9f21966708901ab28ac4d22dbcb1237d96d4a8f4bee504690befa",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed42/normalization.json",
+    "delivered_sha256": "19d7c219a4a597112f268aef6d833c4e5e8003a1ba8af8bf78aca5b5e37d0d21",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed42/stage2_best.pth",
+    "source_sha256": "6422a59fd3f1abf94b0aeb9d5471e1f3d9634b0ecb2473431c4882954863cd14",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed42/stage2_best.pth",
+    "delivered_sha256": "6422a59fd3f1abf94b0aeb9d5471e1f3d9634b0ecb2473431c4882954863cd14",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed42/stage2_config.json",
+    "source_sha256": "d327f626c3bb847436ff80bf5b1266095c588accd4ccc2d0ed9bad3ad46db4a9",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed42/stage2_config.json",
+    "delivered_sha256": "6fbe64679a733f987cd2c7fb795aacb751a87ae1979b7d63e9e630150fbfae7d",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed456/normalization.json",
+    "source_sha256": "97a4c045cfc9f21966708901ab28ac4d22dbcb1237d96d4a8f4bee504690befa",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed456/normalization.json",
+    "delivered_sha256": "19d7c219a4a597112f268aef6d833c4e5e8003a1ba8af8bf78aca5b5e37d0d21",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed456/stage2_best.pth",
+    "source_sha256": "4090e8b61e6dd2c9ca21d3ab4ee6b74c6106fcb267d02b8a2df3462a150c1b0e",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed456/stage2_best.pth",
+    "delivered_sha256": "4090e8b61e6dd2c9ca21d3ab4ee6b74c6106fcb267d02b8a2df3462a150c1b0e",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed456/stage2_config.json",
+    "source_sha256": "59174dc743ab14fdfc55d93fd9bef5c9d3842f64b686c7dea3ee29703ba475ab",
+    "delivered_relative": "assets/NewExperiment/factory_validation/models/factory_stage2_tikhonov_12x12_fullrange_v1_multiseed/seed456/stage2_config.json",
+    "delivered_sha256": "3259b8ec004ec9ea2c0a1affbfce23ead7000b970445677b47487f46b969aae9",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/results/factory_stage2_direct_ablation_summary.json",
+    "source_sha256": "0780eeb1643e0779a2c41e3da3cbca77bd0734662e275a489cb16cb7cb270db8",
+    "delivered_relative": "assets/NewExperiment/factory_validation/results/factory_stage2_direct_ablation_summary.json",
+    "delivered_sha256": "3f9012cc57d2475f535b6f348824802395f79d684117d6411b7ac2a984af9329",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/results/factory_stage2_fullrange_v1_multiseed_summary.json",
+    "source_sha256": "a3f61543559e55fb6096a57e450141639fb96bb308cfa19f07b5bdd893c6de3a",
+    "delivered_relative": "assets/NewExperiment/factory_validation/results/factory_stage2_fullrange_v1_multiseed_summary.json",
+    "delivered_sha256": "1a07a8c43213cfd2ff91bdf6f1ef287ddd01921759e94ca8b57422897d6ddc46",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/results/factory_stage2_multiseed_summary.json",
+    "source_sha256": "a647f350d619f1e03c1e13f0bc583efa1639a3f0f8c398e33d3c73dfbfa6056d",
+    "delivered_relative": "assets/NewExperiment/factory_validation/results/factory_stage2_multiseed_summary.json",
+    "delivered_sha256": "e6ace64d07ef85e3ca08e5206ab6ea264843fece0e27e90ea7fdb967dce5cd36",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/models/normalization.json",
+    "source_sha256": "c1677687c23ea3d865db1eee77bef970433789103dce12b1b1fa8294c83185a4",
+    "delivered_relative": "assets/NewExperiment/models/normalization.json",
+    "delivered_sha256": "eef4761d7dc1bcb7247a56ab8aef03dc3f270222faae0f522c45a1d15c28c453",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/models_tikhonov_16x16/seed123.pth",
+    "source_sha256": "3ddbc7c2b61e1fc5a4f1fd8b1787a7dc4ab41227221262bad08eea131901abfc",
+    "delivered_relative": "assets/NewExperiment/models_tikhonov_16x16/seed123.pth",
+    "delivered_sha256": "3ddbc7c2b61e1fc5a4f1fd8b1787a7dc4ab41227221262bad08eea131901abfc",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/models_tikhonov_16x16/seed42.pth",
+    "source_sha256": "e2b5b2a95716424741913e0156a7ca4501f4962aca8c04db7e01a4d953ba43ea",
+    "delivered_relative": "assets/NewExperiment/models_tikhonov_16x16/seed42.pth",
+    "delivered_sha256": "e2b5b2a95716424741913e0156a7ca4501f4962aca8c04db7e01a4d953ba43ea",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/models_tikhonov_16x16/seed456.pth",
+    "source_sha256": "ad9581c4769b193ba6f3c07fae22dbb4e2b0dc9c377b981f1541d48e90d08b62",
+    "delivered_relative": "assets/NewExperiment/models_tikhonov_16x16/seed456.pth",
+    "delivered_sha256": "ad9581c4769b193ba6f3c07fae22dbb4e2b0dc9c377b981f1541d48e90d08b62",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/sample_metrics.csv",
+    "source_sha256": "5fb3b2daca9a50e60a1b688acf3738b228d34cba7f9ed1876297706174621449",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/sample_metrics.csv",
+    "delivered_sha256": "5fb3b2daca9a50e60a1b688acf3738b228d34cba7f9ed1876297706174621449",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/summary.json",
+    "source_sha256": "eac14a35df549ba2eed64813a9e77e7275b4bb6de07f3ebe349b90f942fc4f56",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/summary.json",
+    "delivered_sha256": "fa173d81fde25f5ba54a013cf7a40ca0880eff1941ad4606b7318c83024263fe",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/two_stage_seed123.npz",
+    "source_sha256": "6a98252fa3689eee1e2001b0ee61b45999d1077d72f21b838648a62b033a13dc",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/two_stage_seed123.npz",
+    "delivered_sha256": "6a98252fa3689eee1e2001b0ee61b45999d1077d72f21b838648a62b033a13dc",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/two_stage_seed42.npz",
+    "source_sha256": "6afbee7ba8aafa6221f6b03b6dd75ceb577e6e4df5cac9a8519af3bb0ae18cad",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/two_stage_seed42.npz",
+    "delivered_sha256": "6afbee7ba8aafa6221f6b03b6dd75ceb577e6e4df5cac9a8519af3bb0ae18cad",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/two_stage_seed456.npz",
+    "source_sha256": "cbca5144b3356c29739640abde8a23d369eb9047322f279602b6a9cd742b8000",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/two_stage_seed456.npz",
+    "delivered_sha256": "cbca5144b3356c29739640abde8a23d369eb9047322f279602b6a9cd742b8000",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_test_20261030_v1/dual_peak.npz",
+    "source_sha256": "86217148082a5fb06297e1a0c360801c8c97ef9c2c1f7cea300847a13570f567",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_test_20261030_v1/dual_peak.npz",
+    "delivered_sha256": "86217148082a5fb06297e1a0c360801c8c97ef9c2c1f7cea300847a13570f567",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_test_20261030_v1/manifest.json",
+    "source_sha256": "143a342e15bc9ebaf0cdbed50e8f7c145dedfee0716af614bbeb3487676bca70",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_test_20261030_v1/manifest.json",
+    "delivered_sha256": "739168eb328aea08d020fa4a85a363ae976765f52228de1936d6a3f3c00ef6b1",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_test_20261030_v1/single_peak.npz",
+    "source_sha256": "26ccd7e5317c740acd78414dce612af545e6a7d748923e9f23736e6f7bd1b3b4",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_test_20261030_v1/single_peak.npz",
+    "delivered_sha256": "26ccd7e5317c740acd78414dce612af545e6a7d748923e9f23736e6f7bd1b3b4",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_test_20261030_v1/triple_peak.npz",
+    "source_sha256": "599e349cf5e501123fe8d1f35edb6813d27b75929b05bd3a916468f6afc028f0",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_test_20261030_v1/triple_peak.npz",
+    "delivered_sha256": "599e349cf5e501123fe8d1f35edb6813d27b75929b05bd3a916468f6afc028f0",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/runs/tuning_confirm_20261030_v1/frozen_config.json",
+    "source_sha256": "92192ab0f294644a8609bf3a1feded9d50336168e39d7883574dfae3d0f533a4",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_02_tv_baseline/runs/tuning_confirm_20261030_v1/frozen_config.json",
+    "delivered_sha256": "9b58d438c96bff056976273c488c242a531f030dce408deb3293e06e4a72906a",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/frozen_protocol.json",
+    "source_sha256": "9760941ca046ce56fddc1455bf0ba6902d72beec6519cd3054c96ddcd99fdda1",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/frozen_protocol.json",
+    "delivered_sha256": "37e5026d30ad4ba9ff1d9318795fa8e2e3bda7535f32808821447e27265ef525",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/paired_summary.json",
+    "source_sha256": "10d57476242f40c1019674eae4707d08648062e43d6e28ae89e81184ec016f12",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/paired_summary.json",
+    "delivered_sha256": "dab4bea6b613ee4e0d6643e30e269362ba7d2ce4c26a81801f7f157e3477e182",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/paper_six_metrics.json",
+    "source_sha256": "6af5f2dc20536de7c03c44f48086f25d00e7fbc2b346af2685d89e8270cf31a4",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/paper_six_metrics.json",
+    "delivered_sha256": "865afc5e5e840b1d11e144abad3d1f32bb77bd8c9bf453e6814df6ad8f878c81",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/summary.json",
+    "source_sha256": "70bda18c1e076e7a3f66951f0fbb6d113bbb183922039413102d487f11f3d07e",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/summary.json",
+    "delivered_sha256": "8d8c658877e8276c3eac547b1638bd9db144ddd7497fc8265c8f37909a18ea84",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_04_independent_ablation/runs/rbf_multiseed_20261101_v1/summary.json",
+    "source_sha256": "4e3629d876775b7061c1f0d61e269a8f7920e9db9a20ba3c1b4c4bbd47b005cc",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_04_independent_ablation/runs/rbf_multiseed_20261101_v1/summary.json",
+    "delivered_sha256": "c3d5cab4733bfcd7f47889dffc1a5c5b0f64a1d2cbb4e657e3495014e2f40e20",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/dual_seed123_v1/best.pt",
+    "source_sha256": "0817afe0334893f1638b4a9b6907e20056fcd6354696382e379234344be5608c",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/dual_seed123_v1/model_state.pth",
+    "delivered_sha256": "409207c45922ccf2007b8a0dead6f98a807c9bb9c6eb31d7c7d6e9d6f65a2961",
+    "adaptation": "tensor-only state_dict export; all tensor values verified exactly equal"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/dual_seed123_v1/config.json",
+    "source_sha256": "dd41c3c458a488271e65abc8de23646665646b0d8fbc28319d6c8ebee219b0c8",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/dual_seed123_v1/config.json",
+    "delivered_sha256": "fa8f113343d2d66311d7082a4a4a493ab9197dcd91724577e9e53283563f6bde",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/dual_seed42_v1/best.pt",
+    "source_sha256": "65c9e1791f5dc822f247b01826b2b9e72db2a0f3e54642c9a7d6476de2a2061e",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/dual_seed42_v1/model_state.pth",
+    "delivered_sha256": "4d0cb3ef98f3059c41d388e32c6307780389c217bbeca0fb65cc01b3afc8e2ef",
+    "adaptation": "tensor-only state_dict export; all tensor values verified exactly equal"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/dual_seed42_v1/config.json",
+    "source_sha256": "d13322dfed9d7ae5af75c120a19633fe47dbe7d4381c7b79f9701d4272cb6cb3",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/dual_seed42_v1/config.json",
+    "delivered_sha256": "f1c9b0c838f4da99d4f4f61a30f79f202e89258a2da7f3ac89ac69116255de67",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/dual_seed456_v1/best.pt",
+    "source_sha256": "eaa919d87461213a7d4f5f590bfd637443b80bfa50e0f4aae122c33e6aadb373",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/dual_seed456_v1/model_state.pth",
+    "delivered_sha256": "d5d1218e7cfdca22c9cc843e87356912f63c6d693298864d234cf85fdab93380",
+    "adaptation": "tensor-only state_dict export; all tensor values verified exactly equal"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/dual_seed456_v1/config.json",
+    "source_sha256": "0725d2fdfb794208848069a0dd9f27d3609aa7671755980467a2101fe86d1a97",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/dual_seed456_v1/config.json",
+    "delivered_sha256": "3cdaed602a0ac2819f946170f66d0d3a9a8e2431c66c535e05c7ca3288625a74",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/test_comparison_v1/summary.json",
+    "source_sha256": "618d770e9d8269a6a3340e9aa00a329e209015e49667e89418f3c55db4ea9cf0",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r3_01_hybrid_baseline/runs/test_comparison_v1/summary.json",
+    "delivered_sha256": "13a967c8512af3b54adc11aa5e642a6d78e84ffd759c621099685c9db7ef3dde",
+    "adaptation": "json_paths_only"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/stage1_inputs/tikhonov12.npz",
+    "source_sha256": "a3cc17a7d820d7f7dee3880a51cd838a06565efd82f8f40f76b46fc5058a975d",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/stage1_inputs/tikhonov12.npz",
+    "delivered_sha256": "a3cc17a7d820d7f7dee3880a51cd838a06565efd82f8f40f76b46fc5058a975d",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/stage1_inputs/tikhonov20.npz",
+    "source_sha256": "b60c259de537d0b66b10918982698421aebe8a5f09d13e61e982804bd56c1c19",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/stage1_inputs/tikhonov20.npz",
+    "delivered_sha256": "b60c259de537d0b66b10918982698421aebe8a5f09d13e61e982804bd56c1c19",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/stage1_inputs/rbf16.npz",
+    "source_sha256": "9cac160a61f2647dab24f59bdd2a9195b83ec178644f128156a0b12538128e7d",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_04_independent_ablation/runs/independent_ablation_20261101_v1/stage1_inputs/rbf16.npz",
+    "delivered_sha256": "9cac160a61f2647dab24f59bdd2a9195b83ec178644f128156a0b12538128e7d",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/tv_single_peak.npz",
+    "source_sha256": "35076344a2b660cf337c8fcbe8bfb09fffdd9087b4e02b0d74d43477505b2398",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/tv_single_peak.npz",
+    "delivered_sha256": "35076344a2b660cf337c8fcbe8bfb09fffdd9087b4e02b0d74d43477505b2398",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/tv_dual_peak.npz",
+    "source_sha256": "f1970945dcbf813bfc7fce19409adc3a580f823a8db8a376dfc25455604f7a5b",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/tv_dual_peak.npz",
+    "delivered_sha256": "f1970945dcbf813bfc7fce19409adc3a580f823a8db8a376dfc25455604f7a5b",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/tv_triple_peak.npz",
+    "source_sha256": "080dc00363b5845d610fccc402317b536c0f4045b66403c12989740bf49414f2",
+    "delivered_relative": "assets/NewExperiment/revision_experiments/r2_02_tv_baseline/runs/independent_evaluation_20261030_v1/tv_triple_peak.npz",
+    "delivered_sha256": "080dc00363b5845d610fccc402317b536c0f4045b66403c12989740bf49414f2",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "TempFieldReconstructionv2/src/ray_tracer.py",
+    "source_sha256": "c4c06f60381f1125bb23f94409b68e597029cddeb7fa91ea56aa5d36468f536b",
+    "delivered_relative": "vendor/physics/ray_tracer.py",
+    "delivered_sha256": "c4c06f60381f1125bb23f94409b68e597029cddeb7fa91ea56aa5d36468f536b",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "TempFieldReconstructionv2/src/reconstruction.py",
+    "source_sha256": "24162807ffe9f07d4d411ddcf8b6df7c245e9dd28ffbc49ee144e6edeceffd90",
+    "delivered_relative": "vendor/physics/reconstruction.py",
+    "delivered_sha256": "24162807ffe9f07d4d411ddcf8b6df7c245e9dd28ffbc49ee144e6edeceffd90",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "TempFieldReconstructionv2/src/nn_prior.py",
+    "source_sha256": "d07d920b94d2f847b91853c364bfd64869434606065a35bcb0c41f86ca780b8f",
+    "delivered_relative": "vendor/physics/nn_prior.py",
+    "delivered_sha256": "d07d920b94d2f847b91853c364bfd64869434606065a35bcb0c41f86ca780b8f",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "TempFieldReconstructionv2/src/simulator.py",
+    "source_sha256": "ab14dab5e183d071342b8f50d9f4635670dcfa7d77076250a861c46ffb3b103c",
+    "delivered_relative": "vendor/physics/simulator.py",
+    "delivered_sha256": "ab14dab5e183d071342b8f50d9f4635670dcfa7d77076250a861c46ffb3b103c",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "TempFieldReconstructionv2/src/visualization.py",
+    "source_sha256": "b29c84d9446a3bfc935633d428ae2e8c14e03a44628c92f7f1a9623dc7dc6c45",
+    "delivered_relative": "vendor/physics/visualization.py",
+    "delivered_sha256": "b29c84d9446a3bfc935633d428ae2e8c14e03a44628c92f7f1a9623dc7dc6c45",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/phase1/phantom_generators.py",
+    "source_sha256": "69aded876be6e9e8ada43de72a04b89b9fcec9afc1e30f5a668d28c083488ff1",
+    "delivered_relative": "vendor/phantom_generators.py",
+    "delivered_sha256": "69aded876be6e9e8ada43de72a04b89b9fcec9afc1e30f5a668d28c083488ff1",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/src/tv_solver.py",
+    "source_sha256": "0c6a36ec8160dae64eaaeb562cb917f1d5b182862faffff4d4c245ce8d20a33d",
+    "delivered_relative": "vendor/tv_solver.py",
+    "delivered_sha256": "0c6a36ec8160dae64eaaeb562cb917f1d5b182862faffff4d4c245ce8d20a33d",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r2_02_tv_baseline/src/comparison_statistics.py",
+    "source_sha256": "cabe14c36d4ab5a3fa34a58ce8b71a3e98e45b7b4a72fb149a93b43e89d0c577",
+    "delivered_relative": "vendor/comparison_statistics.py",
+    "delivered_sha256": "cabe14c36d4ab5a3fa34a58ce8b71a3e98e45b7b4a72fb149a93b43e89d0c577",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/e2e_baseline/network.py",
+    "source_sha256": "5c7494570f21b2f2c4abc427feac2f16bbbb6c2c7cb0ee6b39f4206cea979599",
+    "delivered_relative": "vendor/baselines/direct_networks.py",
+    "delivered_sha256": "5c7494570f21b2f2c4abc427feac2f16bbbb6c2c7cb0ee6b39f4206cea979599",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/phase3/e2e_models.py",
+    "source_sha256": "ad2e4ae59232ae8a0780af848f71a10bbb6ae1ad20fc90e1712faeb174018ea6",
+    "delivered_relative": "vendor/baselines/image_baseline.py",
+    "delivered_sha256": "ad2e4ae59232ae8a0780af848f71a10bbb6ae1ad20fc90e1712faeb174018ea6",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/__init__.py",
+    "source_sha256": "23ed1165f323117d40fb582d6c655f27f261f8f1c838615324be0865224308cb",
+    "delivered_relative": "vendor/factory_validation/__init__.py",
+    "delivered_sha256": "23ed1165f323117d40fb582d6c655f27f261f8f1c838615324be0865224308cb",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/config.py",
+    "source_sha256": "033742895e267ceff2015077ff7c07c20dc28cdaaf12d0b013e35830478f403d",
+    "delivered_relative": "vendor/factory_validation/config.py",
+    "delivered_sha256": "033742895e267ceff2015077ff7c07c20dc28cdaaf12d0b013e35830478f403d",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/geometry.py",
+    "source_sha256": "f9456085f1b66a92f952eff4e110ced1ff662e268daf7a8aadb442a4333aab07",
+    "delivered_relative": "vendor/factory_validation/geometry.py",
+    "delivered_sha256": "f9456085f1b66a92f952eff4e110ced1ff662e268daf7a8aadb442a4333aab07",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/matrix.py",
+    "source_sha256": "0bb3d4373b5324220d6b1317fb9343998e571df65b845572cecd1eff20b2b002",
+    "delivered_relative": "vendor/factory_validation/matrix.py",
+    "delivered_sha256": "0bb3d4373b5324220d6b1317fb9343998e571df65b845572cecd1eff20b2b002",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/conversions.py",
+    "source_sha256": "b7190e308700018b9cc4eb3ff1426857f170524fd22b7b47f519ef0e3be6cfe5",
+    "delivered_relative": "vendor/factory_validation/conversions.py",
+    "delivered_sha256": "b7190e308700018b9cc4eb3ff1426857f170524fd22b7b47f519ef0e3be6cfe5",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/stage1.py",
+    "source_sha256": "43278d9ccfc62f8a9078453a5ab560b4bf02b462d37d724ce363967e61032d29",
+    "delivered_relative": "vendor/factory_validation/stage1.py",
+    "delivered_sha256": "43278d9ccfc62f8a9078453a5ab560b4bf02b462d37d724ce363967e61032d29",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/synthetic.py",
+    "source_sha256": "8877d51e4249ef21f5a2f5094b2953909cdae0f5491d2a15717c05c2f5b62d88",
+    "delivered_relative": "vendor/factory_validation/synthetic.py",
+    "delivered_sha256": "8877d51e4249ef21f5a2f5094b2953909cdae0f5491d2a15717c05c2f5b62d88",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/stage2.py",
+    "source_sha256": "fef78d3638ffb1aea41b0bd6b6aabad3444bffd9b164eda0a1a1b1fd1a880209",
+    "delivered_relative": "vendor/factory_validation/stage2.py",
+    "delivered_sha256": "fef78d3638ffb1aea41b0bd6b6aabad3444bffd9b164eda0a1a1b1fd1a880209",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/stage2_multiseed.py",
+    "source_sha256": "f762b6149329eccb0de127291365c2651cf7b76794be9514741f7bfd2730644f",
+    "delivered_relative": "vendor/factory_validation/stage2_multiseed.py",
+    "delivered_sha256": "f762b6149329eccb0de127291365c2651cf7b76794be9514741f7bfd2730644f",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/factory_direct_ablation.py",
+    "source_sha256": "670e6bb6d546276b0319229fe08ba5bce5f7565a1de0bd0590ad7de983e5a1d9",
+    "delivered_relative": "vendor/factory_validation/factory_direct_ablation.py",
+    "delivered_sha256": "670e6bb6d546276b0319229fe08ba5bce5f7565a1de0bd0590ad7de983e5a1d9",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/plotting.py",
+    "source_sha256": "a029a0724ec53b62e61dec1b0ffa4262c14d45d35d33f295849a3f4e0c6bd1d0",
+    "delivered_relative": "vendor/factory_validation/plotting.py",
+    "delivered_sha256": "a029a0724ec53b62e61dec1b0ffa4262c14d45d35d33f295849a3f4e0c6bd1d0",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/factory_validation/paper_palette.py",
+    "source_sha256": "44efbd67157cf5aecc89988f97951d23deccbfcd38b9e2f36cb4592d24c0a257",
+    "delivered_relative": "vendor/factory_validation/paper_palette.py",
+    "delivered_sha256": "44efbd67157cf5aecc89988f97951d23deccbfcd38b9e2f36cb4592d24c0a257",
+    "adaptation": "byte-for-byte copy"
+  },
+  {
+    "source_relative": "NewExperiment/revision_experiments/r3_01_hybrid_baseline/scripts/train_dual_input.py",
+    "source_sha256": "0c9bb3e50409bd8730b77a96b19a716e5c2a820382902fc1ca98b6fee709dfaf",
+    "delivered_relative": "vendor/baselines/dual_network.py",
+    "delivered_sha256": "311de923d1159af0c087620420371dfb59e7448c0e612fd2e5bfda9b2dab945a",
+    "adaptation": "AST class extraction only; original class definition unchanged"
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "attention/attention": {
+    "checkpoint": "ablation/models_attention/attention.pth",
+    "result": "ablation/results/ablation_attention_attention.json",
+    "mode": "residual",
+    "stage1": "tikhonov16"
+  },
+  "attention/base": {
+    "checkpoint": "ablation/models_attention/base.pth",
+    "result": "ablation/results/ablation_attention_base.json",
+    "mode": "residual",
+    "stage1": "tikhonov16"
+  },
+  "attention/plain": {
+    "checkpoint": "ablation/models_attention/plain.pth",
+    "result": "ablation/results/ablation_attention_plain.json",
+    "mode": "residual",
+    "stage1": "tikhonov16"
+  },
+  "grid/grid12": {
+    "checkpoint": "ablation/models_tikhonov_grid/grid12.pth",
+    "result": "ablation/results/ablation_grid_grid12.json",
+    "mode": "residual",
+    "stage1": "tikhonov12"
+  },
+  "grid/grid16": {
+    "checkpoint": "ablation/models_tikhonov_grid/grid16.pth",
+    "result": "ablation/results/ablation_grid_grid16.json",
+    "mode": "residual",
+    "stage1": "tikhonov16"
+  },
+  "grid/grid20": {
+    "checkpoint": "ablation/models_tikhonov_grid/grid20.pth",
+    "result": "ablation/results/ablation_grid_grid20.json",
+    "mode": "residual",
+    "stage1": "tikhonov20"
+  },
+  "learning/residual": {
+    "checkpoint": "ablation/models_learning/residual.pth",
+    "result": "ablation/results/ablation_learning_residual.json",
+    "mode": "residual",
+    "stage1": "tikhonov16"
+  },
+  "learning/direct": {
+    "checkpoint": "ablation/models_learning/direct.pth",
+    "result": "ablation/results/ablation_learning_direct.json",
+    "mode": "direct",
+    "stage1": "tikhonov16"
+  },
+  "loss/MSE": {
+    "checkpoint": "ablation/models_loss/MSE.pth",
+    "result": "ablation/results/ablation_loss_MSE.json",
+    "mode": "residual",
+    "stage1": "tikhonov16"
+  },
+  "loss/SmoothL1": {
+    "checkpoint": "ablation/models_loss/SmoothL1.pth",
+    "result": "ablation/results/ablation_loss_SmoothL1.json",
+    "mode": "residual",
+    "stage1": "tikhonov16"
+  },
+  "loss/L1": {
+    "checkpoint": "ablation/models_loss/L1.pth",
+    "result": "ablation/results/ablation_loss_L1.json",
+    "mode": "residual",
+    "stage1": "tikhonov16"
+  },
+  "stage1/rbf": {
+    "checkpoint": "ablation/models_stage1/rbf.pth",
+    "result": "ablation/results/ablation_stage1_rbf.json",
+    "mode": "residual",
+    "stage1": "rbf16"
+  },
+  "stage1/tikhonov": {
+    "checkpoint": "ablation/models_stage1/tikhonov.pth",
+    "result": "ablation/results/ablation_stage1_tikhonov.json",
+    "mode": "residual",
+    "stage1": "tikhonov16"
+  },
+  "training/single_only": {
+    "checkpoint": "ablation/models_training/single_only.pth",
+    "result": "ablation/results/ablation_training_single_only.json",
+    "mode": "residual",
+    "stage1": "tikhonov16"
+  },
+  "training/dual_only": {
+    "checkpoint": "ablation/models_training/dual_only.pth",
+    "result": "ablation/results/ablation_training_dual_only.json",
+    "mode": "residual",
+    "stage1": "tikhonov16"
+  },
+  "training/triple_only": {
+    "checkpoint": "ablation/models_training/triple_only.pth",
+    "result": "ablation/results/ablation_training_triple_only.json",
+    "mode": "residual",
+    "stage1": "tikhonov16"
+  },
+  "training/mixed_subset": {
+    "checkpoint": "ablation/models_training/mixed_subset.pth",
+    "result": "ablation/results/ablation_training_mixed_subset.json",
+    "mode": "residual",
+    "stage1": "tikhonov16"
+  }
+}
